@@ -1,0 +1,9 @@
+TUGAS UAS, MEMBUAT WEB APLIKASI CRUD 
+- Web yang dibuat minimal 3 Tabel Data yang memiliki Form CRUD dan Cetak Laporan.
+- Setiap Mahasiswa mengupload Folder hasil tugas didalam folder ini (UAS) dengan format folder NPM_NAMA_LENGKAP contoh folder: 16630096_Muhammad_Hanafi.
+- Database dibuat dengan format yang UAS_NPM contoh UAS_16630096.sql dimuat dalam folder db.
+- Diluar format tersebut, nilai dikosongkan untuk UAS.
+- Penilaian didasarkan :
+1. Tampilan 50%
+2. Proses Aplikasi 30%
+3. Tambahan (Kreatifitas) 20%, misal ada form transaksi, form backup data, form buku tamu dsb.
