@@ -1,0 +1,32 @@
+body {
+	background-color: #f5f5f5;
+}
+#header {
+	background: url("../img/header.jpg");
+	background-color: #000;
+	height: 200px;
+}
+#menu {
+	padding: 20px;
+	background-color: #0b3050;
+	height: 700px;
+	border-bottom: 10px solid #fff;
+}
+#menu ul li a{
+	color:#fff;
+	border-bottom:1px dotted #fff;
+}
+#menu ul li a:hover {
+	background-color: #fff;
+	color:grey;
+}
+.strip tr td {
+	border-bottom: 1px solid grey;
+}
+.dropdown-menu li{
+	margin-top:10px;
+}
+#user input,select {
+	padding: 5px;
+	width:300px;
+}
