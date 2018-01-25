@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.frame{
+	border:none;
+	}
+.menu{
+	margin:10px;
+	display:block;
+	padding:5px;
+	color:#F9F5F6;
+	background:linear-gradient(#478720,#035727);
+	}
+.menu:hover{
+	background-color:#3768B4;}
+.menu a{
+	text-align:center;
+	font-size:14px;
+	color:#E4E3E3;
+	font-family:Arial;
+	text-decoration:none;}
+.menu a:hover{
+	background-color:#0A4E7A;
+	height:40px;
+	}	
+.text{
+	font-family:arial;
+	font-size:14px;}
