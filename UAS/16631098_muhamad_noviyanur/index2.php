@@ -1,0 +1,758 @@
+<?php
+// include ('koneksi.php');
+include ('library.php');
+?>
+
+<!DOCTYPE html><html lang="en">
+
+<head>
+	<!-- Basic informations -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Site informations -->
+	<title>Muhamad Noviyanur</title>
+
+
+	
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="style/favicon/apple-touch-icon-180x180.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="style/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="style/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="style/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="style/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="style/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="style/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="style/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="style/favicon/apple-touch-icon-76x76.png">
+	<link rel="icon" type="image/png" href="style/favicon/favicon-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="style/favicon/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="style/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="style/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="style/favicon/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="style/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="style/favicon/browserconfig.xml">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Fonts -->
+	<link href="style/fonts/webfont-raleway/webfont-raleway.css" rel="stylesheet" type="text/css">
+	<link href="style/fonts/webfont-font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+	<!-- Stylesheets -->
+	<link href="style/css/global.css" type="text/css" rel="stylesheet" media="all">
+
+	<!-- Scripts preload -->
+	<!--[if lt IE 9]><script src="style/js/html5shiv.js"></script><![endif]-->
+</head>
+
+<body>
+
+
+
+
+
+
+	<!-- Some Helper Stuff -->
+	<div id="start" class="start">&nbsp;</div>
+	<div class="maxwidth1050">&nbsp;</div>
+
+
+
+
+
+
+
+	<!-- Header -->
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__hamburger">
+				<div class="header__hamburger-block">&nbsp;</div>
+				<div class="header__hamburger-block">&nbsp;</div>
+				<div class="header__hamburger-block">&nbsp;</div>
+			</div>
+			<nav class="header__navigation">
+				<a href="#start" class="js-smooth-scroll">
+					<div class="js-smooth-scroll  header__navigation-element">Mulai</div>
+				</a>
+				<a href="#experience" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--experience">Minat.</div>
+				</a>
+				<a href="#features" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--features">Minat website...</div>
+				</a>
+				<a href="#realizations" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--realizations">Sisi Lain</div>
+				</a>
+				<a href="#contact" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--contact">Kontak</div>
+				</a>
+			</nav>
+
+			<a href="#start" class="header__title-wrapper  js-smooth-scroll">
+				<div class="header__title-main">Muhammad Noviyanur</div>
+				<div class="header__title-sub">1663 1098</div>
+			</a>
+			<div class="button_atas">
+				<button>tabel</button>
+
+
+
+
+			</div>
+
+			<div class="header__social-icons">
+				<a target="_blank" href="https://www.facebook.com/boy.dspectra"><i class="fa fa-dribbble"></i></a>
+
+				<a target="_blank" href="https://github.com/shunici"><i class="fa fa-github"></i></a>
+
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+
+
+
+
+
+
+
+
+	<!-- First Fixed "Hero" Section -->
+	<section id="hero" class="hero">
+		<div class="hero__background">&nbsp;</div>
+		<div class="hero__gradient">&nbsp;</div>
+		<div class="hero__pattern">&nbsp;</div>
+		<div class="hero__content">
+			<div class="hero__content-wrapper">
+				<div class="hero__title-wrapper">
+					<div class="hero__title-large">Assalamualaikum</div>
+					<div class="hero__title-small">Ini adalah Profil Saya.</div>
+				</div>
+				<div class="hero__photo-wrapper">
+					<div class="hero__photo">
+						<!--<div class="hero__hat">&nbsp;</div>-->
+					</div>
+				</div>
+				<div class="text-berjalan">
+					
+					<marquee direction="right">Muhammad Noviyanur</marquee>
+
+				</div>
+				<div class="hero__description">
+					belajar adalah sesuatu yang <a target="_blank" href="http://serafin.io/?utm_source=Aurora-Template&utm_medium=Hero-Desc&utm_campaign=Freebie">membosankan</a> bagaimana tidak? ketika kamu menghabiskan waktu dengan hal-hal yang membuatmu mengantuk dan kamu berharap kamu ingin menyudahinya saja. kamu merasa tertekan ketika dihantui oleh rasa takut yang bergentayangan silih berganti. belum lagi masalah waktu yang mengejarmu seolah nilai adalah sesuatu yang mutlak kamu inginkan. tapi inilah dunia mungkin ini yang disebut dengan pengorbanan. aku pikir tidak ada kesuksesan tanpa adanya keringat, air mata, darah dan nyawa. yang kamu perlukan hanyalah kesadaran. demi masa depan atau demi kehancuran yang membuatmu menyesal tanpa akhir.  
+				</div>
+				
+
+			</div>
+		</div>
+	</section>
+	<!-- End First Fixed "Hero" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Scrollable Content -->
+	<div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "Experience" minat -->
+		<section id="experience" class="experience">
+			<div class="experience__hollow-arrow">&nbsp;</div>
+			<div class="experience__wrapper">
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--experience">Minat...</div>
+					<div class="section-header__subtitle">ini adalah minat saya dalam dunia program web dan multimedia</div>
+				</div>
+				<div class="experience__icons-wrapper">
+					<div class="experience__icon  experience__icon--html5">
+						<div class="experience__icon-description">HTML5</div>
+					</div>
+					<div class="experience__icon  experience__icon--css3">
+						<div class="experience__icon-description">CSS3</div>
+					</div>
+					<div class="experience__icon  experience__icon--javascript">
+						<div class="experience__icon-description">JavaScript</div>
+					</div>
+					<div class="experience__icon  experience__icon--sass">
+						<div class="experience__icon-description">SASS</div>
+					</div>
+					<div class="experience__icon  experience__icon--jquery">
+						<div class="experience__icon-description">jQuery</div>
+					</div>
+					<div class="experience__icon  experience__icon--git">
+						<div class="experience__icon-description">GIT</div>
+					</div>
+					<div class="experience__icon  experience__icon--wordpress">
+						<div class="experience__icon-description">WordPress</div>
+					</div>
+					<div class="experience__icon  experience__icon--photoshop">
+						<div class="experience__icon-description">Adobe Photoshop</div>
+					</div>
+					<div class="experience__icon  experience__icon--illustrator">
+						<div class="experience__icon-description">Adobe Illustrator</div>
+					</div>
+					<div class="experience__icon  experience__icon--fireworks">
+						<div class="experience__icon-description">Adobe Fireworks</div>
+					</div>
+					<div class="experience__icon  experience__icon--bootstrap">
+						<div class="experience__icon-description">Bootstrap 3</div>
+					</div>
+					<div class="experience__icon  experience__icon--foundation">
+						<div class="experience__icon-description">Foundation 5</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- selesai"Experience minat" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "minat website" Section -->
+		<section id="features" class="features">
+			<div class="features__wrapper">
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--features">Hal-hal menjadi minat dalam website saya</div>
+					<div class="section-header__subtitle">item dalam segi pemasaran</div>
+				</div>
+				<div class="features__elements-wrapper">
+					<div class="features__element">
+						<div class="features__image  features__image--mobile">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">cepat dan tepat sasaran</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--newest">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">teknolgi informasi yang mutakhir</div>
+							<div class="features__description">..</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--intuitive">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">visual yang atraktiv dan menggoda</div>
+							<div class="features__description">..</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--browsers">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">akses dengan browser manapun</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--clients">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">sesuatu yang unik</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--fast">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">penampilan yang memukau</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--seo">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">mode pencarian yang ramah dan mudah</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--secure">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">keamanan yang kuat</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--semantic">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">mewah tapi sederhana</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--sourcefiles">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">akses dengan kode mana saja</div>
+							<div class="features__description">.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End "minat website" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "sisi lain" Section - dan proyek -->
+		<section id="realizations" class="realizations">
+			<div class="realizations__wrapper">
+
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--realizations">Sisi lain dari seorang Muhamad Noviyanur</div>
+					<div class="section-header__subtitle">biar bagaimanapun manusia tetaplah  manusia. mereka perlu kasih sayang dan harapan</div>
+				</div>
+
+				<div class="showcase">
+					<div class="showcase__thumbnails-wrapper">
+
+						<!-- normal -->
+						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active" src="content/project01_thumb.jpg">
+						<img data-project="p2" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
+						<img data-project="p3" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
+						<img data-project="p4" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
+						<img data-project="p5" class="showcase__thumb" src="content/project_placeholder_thumb.jpg">
+
+						<!-- blank template
+						<div data-project="p5" class="showcase__thumb  showcase__thumb--blank">&nbsp;</div>
+						 -->
+
+					</div>
+
+
+
+					<div class="showcase__stage-wrapper">
+
+						<!-- project 1 -->
+						<div data-project="p1" class="showcase__stage  showcase__stage--active">
+							<div class="showcase__slider">
+								<ul class="rslides">
+
+									<li>
+										<a href="content/project01_slide01.jpg" target="_blank">
+											<img src="content/project01_slide01.jpg">
+										</a>
+									</li>
+
+									<li>
+										<a href="content/project01_slide02.jpg" target="_blank">
+											<img src="content/project01_slide02.jpg">
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">
+									Muhamad Noviyanur
+									<div class="showcase__title-description">1663 1098</div>
+								</div>
+
+								<div class="showcase__point">
+									<div class="showcase__point-title">Cita-cita</div>
+									<div class="showcase__point-description">
+										kadang aku pikir aku ingin seperti air. kemana arah menuju kesitulah aku. begitulah cita-citaku.
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Minat dan bakat</div>
+									<div class="showcase__point-description">
+										Mereka bilang aku punya banyak bakat. Kurasa mereka salah. Aku masih mencari jati diri
+									</div>
+								</div>
+
+
+								<div class="showcase__point">
+									<div class="showcase__point-title">Motto</div>
+									<div class="showcase__point-details-excerpt">
+										Waktu bisa membuatmu bahagia dan waktu pula bisa membuatmu sengsara. Gunakan waktu sebaik mungkin. <!--<span class="showcase__ellipsis"></span>--><span class="showcase__readmore">lanjut</span>
+									</div>
+
+									<div class="showcase__point-details-full">
+										karna kau tidak bisa mengubah hari buruk kemarin, tapi kamu bisa mengubah hari esok yang bahagia. <span class="showcase__readless">skip</span>
+									</div>
+								</div>
+
+
+								<a target="_blank" href="#" class="showcase__button  ghost-button  ghost-button--realizations">My Wishes</a>
+							</div>
+						</div>
+
+						<!-- project 2 -->
+						<div data-project="p2" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+
+									<li>
+										<a href="content/project_placeholder_slide.jpg" target="_blank">
+											<img src="content/project_placeholder_slide.jpg">
+										</a>
+									</li>
+
+									<li>
+										<a href="content/project_placeholder_slide.jpg" target="_blank">
+											<img src="content/project_placeholder_slide.jpg">
+										</a>
+									</li>
+
+									<li>
+										<a href="content/project_placeholder_slide.jpg" target="_blank">
+											<img src="content/project_placeholder_slide.jpg">
+										</a>
+									</li>
+
+									<li>
+										<a href="content/project_placeholder_slide.jpg" target="_blank">
+											<img src="content/project_placeholder_slide.jpg">
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Kepribadian</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Kepeduliian 70%</div>
+									<div class="showcase__point-description">
+										terlebih ketika kamu mengenal dia
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Makanan Favorit</div>
+									<div class="showcase__point-description">
+										Nasi Goreng, Sate, Nasi Kuning, Rawon, Ketupat
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Dipengaruhi</div>
+									<div class="showcase__point-details-excerpt">
+										KH. Zainudin MZ, Nabi Muhammad SAW, Umar bin Hattab, SOekarno, Mario Teguh, Abah Guru Sekumpul, Cak Lontong, Ayah saya, Ronaldo, Zidane<span class="showcase__ellipsis">...</span>
+										<span class="showcase__readmore">lanjut</span>
+									</div>
+									<div class="showcase__point-details-full">
+										,my brother, Jackie Chan, Madani Mujahid (suzi).
+										<span class="showcase__readless">tutup</span>
+									</div>
+								</div>
+								<a target="_blank" href="#" class="showcase__button  ghost-button  ghost-button--realizations">Time Never goes Back</a>
+							</div>
+						</div>
+
+						<!-- project 3 -->
+						<div data-project="p3" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Personality</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Pemalas</div>
+									<div class="showcase__point-description">
+										kadang saat itu bisa dimana saja
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Antusias</div>
+									<div class="showcase__point-description">
+										Saat dimana aku menyukai sesuatu
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Frustasi</div>
+									<div class="showcase__point-details-excerpt">
+										Ketika aku melihat sesuatu tidak berjalan dengan semestinya. Ingin Menangis tapi Aku sadar aku bukan anak kecil lagi. ketika aku tidak punya teman untuk berbagi. Aku cenderung mengalami hal yang disebut kegalauan<span class="showcase__ellipsis">...</span>
+										<span class="showcase__readmore">lanjut baca</span>
+									</div>
+									<div class="showcase__point-details-full">
+										seseorang yang sangat spesial dihatiku kini dia berubah. aku ingin dia seperti kemarin. tapi keinginanku bukan lah keinginan dia.
+										<span class="showcase__readless">tutup</span>
+									</div>
+								</div>
+								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Second Chance</a>
+							</div>
+						</div>
+
+						<!-- project 4 -->
+						<div data-project="p4" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Bio Data</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Alamat</div>
+									<div class="showcase__point-description">
+										Desa 6 Takuti Kec. Mataraman Kab. Banjar
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Pekerjaan</div>
+									<div class="showcase__point-description">
+										Desainer di sebuah percetakan di Banjarbaru
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Kegemaran</div>
+									<div class="showcase__point-details-excerpt">
+										Main Sepak Bola, Menonton TV, Internetan, Main Catur, Main Plastation, FInger Style (Gitar Petik) Mendengarkian Musik, Mendengarkan Ceramah<span class="showcase__ellipsis">...</span>
+										<span class="showcase__readmore">teruskan</span>
+									</div>
+									<div class="showcase__point-details-full">
+										ma'af itu ja gen dulu. uyuh mengetik nah heeee
+										<span class="showcase__readless">skip coy</span>
+									</div>
+								</div>
+								<a target="_blank" href="#" class="showcase__button  ghost-button  ghost-button--realizations">jangan diklik</a>
+							</div>
+						</div>
+
+						<!-- project 5 -->
+						<div data-project="p5" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+									<li><img src="content/project_placeholder_slide.jpg"></li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Keluarga</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Ayah</div>
+									<div class="showcase__point-description">
+										Haman
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Ibu</div>
+									<div class="showcase__point-description">
+										Siti Maimunah
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Saudara</div>
+									<div class="showcase__point-details-excerpt">
+										Nazaruddin, Masruddin, Baihaki, Ratna Wati. Muhdi Rahman, Arafik Kurahman, Muhamad Hadi Yanur, Muhamad Noviyanur, Nur Khalifah<span class="showcase__ellipsis">...</span>
+										<span class="showcase__readmore">kdd apa-apa</span>
+									</div>
+									<div class="showcase__point-details-full">
+										wes ente jare.
+										<span class="showcase__readless">tutup</span>
+									</div>
+								</div>
+								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">My Family</a>
+							</div>
+						</div>
+
+
+					</div>
+
+
+
+				</div>
+			</div>
+		</section>
+		<!-- End "sisi lain" Section -dan projek -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "kontak" Section -->
+		<section id="contact" class="contact">
+			<div class="contact__wrapper">
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--contact">Contact...</div>
+					<div class="section-header__subtitle">lebih lanjut mengenai saya. mungkin anda perlu meliat saya di bawah ini</div>
+				</div>
+
+				<div class="contact__icons-wrapper">
+					<div class="contact__icon">
+						<a target="_blank" href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope"></i></a>
+						<div class="contact__icon-description">muhamad.noviyanur94@gmail.com</div>
+					</div>
+					<div class="contact__icon">
+						<a target="_blank" href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-twitter"></i></a>
+						<div class="contact__icon-description">@muhamadnoviyanur</div>
+					</div>
+					<div class="contact__icon">
+						<a target="_blank" href="https://www.facebook.com/boy.dspectra"><i class="fa fa-dribbble"></i></a>
+						<div class="contact__icon-description">muhamad_noviyanur</div>
+					</div>
+				</div>
+
+				<div class="contact__spacer">&nbsp;</div>
+
+				<form class="contact__form">
+
+					<div class="contact__textarea-wrapper">
+						<label for="message_content" class="contact__label">Pesan</label>
+						<div class="contact__response-ajax-text">&nbsp;</div>
+						<textarea id="message_content" rows="5" placeholder="Berikan pesan anda untuk menilai saya. apakah saya orang yang baik atau tidak. heehehe" required></textarea>
+					</div>
+
+					<div class="contact__bottom-wrapper">
+						<div class="contact__sender-info-wrapper">
+							<div class="contact__input-wrapper  contact__input-wrapper--name">
+								<label for="sender_name" class="contact__label">Nama</label>
+								<div class="contact__response-ajax-text">&nbsp;</div>
+								<input id="sender_name" type="text" placeholder="Muhamad.Noviyanur" required>
+							</div>
+							<div class="contact__input-wrapper  contact__input-wrapper--email">
+								<label for="sender_email" class="contact__label">NPM</label>
+								<div class="contact__response-ajax-text">&nbsp;</div>
+								<input id="sender_email" type="email" placeholder="1663.1098" required>
+							</div>
+							
+						</div>
+						<div class="contact__bottom-wrapper">
+						<div class="contact__sender-info-wrapper">
+							<div class="contact__input-wrapper  contact__input-wrapper--name">
+								<label for="sender_name" class="contact__label">Jenis Kelamin</label>
+								<div class="contact__response-ajax-text">&nbsp;</div>
+								<input id="sender_name" type="text" placeholder="Laki-laki" required>
+							</div>
+					
+								
+							</div>
+						</div>
+
+						<div class="contact__button-wrapper  ghost-button  ghost-button--contact">
+							<div class="contact__paper-plane-wrapper"><i class="fa fa-paper-plane"></i></div>
+							<div class="contact__response  contact__response--success">
+								<div class="contact__response-title"><i class="fa fa-check"></i> Message was sent.</div>
+								<div class="contact__response-description  contact__response-description--success">&nbsp;</div>
+							</div>
+							<div class="contact__response  contact__response--error">
+								<div class="contact__response-title"><i class="fa fa-warning"></i> Error.</div>
+								<div class="contact__response-description  contact__response-description--error">Message couldn't be sent.</div>
+							</div>
+							<input id="contact__submit" type="button" value=" ">
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</section>
+		<!-- End "kontak" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Footer -->
+		<footer id="footer" class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__copyright">Universitas Islam Kalimantan (UNISKA) &copy; 2017</div>
+				<a href="https://www.facebook.com/boy.dspectra" target="_blank" class="footer__image">&nbsp;</a>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+
+
+
+
+
+
+
+	</div>
+	<!-- End Scrollable Content -->
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Scripts postload -->
+	<script src="style/js/dependencies.min.js" type="text/javascript"></script>
+	<script src="style/js/global.js" type="text/javascript"></script>
+
+</body>
+</html>
